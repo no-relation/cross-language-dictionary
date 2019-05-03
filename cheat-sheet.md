@@ -27,15 +27,18 @@ Ruby | Javascript | Python
 `upcase` | `toUpperCase()` | `upper()`
 `downcase` | `toLowerCase()` | `lower()`
 `strip` | `trim()` | `strip()`
-
+<!-- 
 # Loops
 Ruby | Javascript | Python
 :---:|:---:|:---:
-
+  -->
 # Terminal Output
 Ruby | Javascript | Python
 :---:|:---:|:---:
+`puts` | `console.log` | `print()`
 
 # Data Types
-Ruby | Javascript | Python
-:---:|:---:|:---:
+example | Ruby | Javascript | Python
+:---:|:---:|:---:|:---:
+`{key1: value1, key2: value2}` | hash | object | dictionary
+`[value1, value2]` | array | array | list
