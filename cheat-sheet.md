@@ -26,7 +26,7 @@ Ruby | Javascript | Python
 `capitalize` | none | `capitalize()`
 `upcase` | `toUpperCase()` | `upper()`
 `downcase` | `toLowerCase()` | `lower()`
-
+`strip` | `trim()` | `strip()`
 
 # Loops
 Ruby | Javascript | Python
