@@ -12,7 +12,7 @@ double quotes | grave accents | (v3.6) `f'string {code}'`
 # Array functions
 Ruby | Javascript | Python
 :---:|:---:|:---:
-`object.method { |item| item.something }` | `Array.method( (item) => item.something );` | 
+`object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` | 
 `each` | `forEach()` | `for item in list:`
 `map` / `collect` | `map()` | `list(map(function, input_list))`
 `select` | `filter()` | `list(filter(function, input_list))`
