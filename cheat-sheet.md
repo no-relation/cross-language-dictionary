@@ -21,12 +21,12 @@ Ruby | Javascript | Python
 `array.join(" ")` | `array.join(",")` | `separator.join(list)`
 
 # String functions
-Ruby | Javascript | Python
+Ruby | Javascript | Python | C#
 :---:|:---:|:---:
 `capitalize` | none | `capitalize()`
 `upcase` | `toUpperCase()` | `upper()`
 `downcase` | `toLowerCase()` | `lower()`
-`strip` | `trim()` | `strip()`
+`strip` | `trim()` | `strip()` | `Trim()`
 <!-- 
 # Loops
 Ruby | Javascript | Python
