@@ -6,7 +6,7 @@ Ruby | Javascript | Python
 # String Interpolation or Template Literals
 Ruby | Javascript | Python | C#
 :---:|:---:|:---:|:---:
-`"string #{code}"`  | ``` `string ${code}` ``` | `'string %s' %(code)` | `"string {0}", code`
+`"string #{code}"`  | ``` `string ${code}` ``` | `'string %s' %(code)` | `"string {0} {1}", code at {0}, code at {1}`
 double quotes | grave accents | (v3.6) `f'string {code}'` | 
 
 # Array functions
