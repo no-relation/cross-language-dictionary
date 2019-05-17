@@ -22,7 +22,7 @@ Ruby | Javascript | Python
 
 # String functions
 Ruby | Javascript | Python | C#
-:---:|:---:|:---:
+:---:|:---:|:---:|:---:
 `capitalize` | none | `capitalize()`
 `upcase` | `toUpperCase()` | `upper()`
 `downcase` | `toLowerCase()` | `lower()`
