@@ -10,10 +10,10 @@ Ruby | Javascript | Python | C#
 double quotes | grave accents | (v3.6) `f'string {code}'` | 
 
 # Array functions
-Ruby | Javascript | Python
-:---:|:---:|:---:
+Ruby | Javascript | Python | C#
+:---:|:---:|:---:|:---:
 `object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` | 
-`each` | `forEach()` | `for item in list:`
+`each` | `forEach()` | `for item in list:` | `foreach item in list {}`
 `map` / `collect` | `map()` | `list(map(function, input_list))`
 `select` | `filter()` | `list(filter(function, input_list))`
 `first` | `find()` | `???`
