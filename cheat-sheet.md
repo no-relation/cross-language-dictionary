@@ -12,20 +12,20 @@ double quotes | grave accents | (v3.6) `f'string {code}'` |
 # Array functions
 Ruby | Javascript | Python | C#
 :---:|:---:|:---:|:---:
-`object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` | 
+`object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` | | requires LINQ
 `each` | `forEach()` | `for item in list:` | `foreach item in list {}`
-`map` / `collect` | `map()` | `list(map(function, input_list))`
-`select` | `filter()` | `list(filter(function, input_list))`
+`map` / `collect` | `map()` | `list(map(function, input_list))` | `array.Select(x => operation on x)` 
+`select` | `filter()` | `list(filter(function, input_list))` | `array.Where(x => boolean operation)`
 `first` | `find()` | `???`
-`sum` | `reduce()` | `list(reduce(function, input_list))`
-`array.join(" ")` | `array.join(",")` | `separator.join(list)`
+`sum` | `reduce()` | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)`
+`array.join("separator")` | `array.join("separator")` | `"separator".join(list)` | `string.Join("separator", array)`
 
 # String functions
 Ruby | Javascript | Python | C#
 :---:|:---:|:---:|:---:
-`capitalize` | none | `capitalize()`
-`upcase` | `toUpperCase()` | `upper()`
-`downcase` | `toLowerCase()` | `lower()`
+`capitalize` | none | `capitalize()` | none
+`upcase` | `toUpperCase()` | `upper()` | `ToUpper()`
+`downcase` | `toLowerCase()` | `lower()` | `ToLower()`
 `strip` | `trim()` | `strip()` | `Trim()`
 <!-- 
 # Loops
@@ -33,12 +33,12 @@ Ruby | Javascript | Python
 :---:|:---:|:---:
   -->
 # Terminal Output
-Ruby | Javascript | Python
-:---:|:---:|:---:
-`puts` | `console.log` | `print()`
+Ruby | Javascript | Python | C#
+:---:|:---:|:---:|:---:
+`puts` | `console.log` | `print()` | `Console.WriteLine`
 
 # Data Types
-example | Ruby | Javascript | Python
-:---:|:---:|:---:|:---:
-`{key1: value1, key2: value2}` | hash | object | dictionary
-`[value1, value2]` | array | array | list
+example | Ruby | Javascript | Python | C#
+:---:|:---:|:---:|:---:|:---:
+`[value1, value2]` | array | array | list | array or list
+`{key1: value1, key2: value2}` | hash | object | dictionary | dictionary
