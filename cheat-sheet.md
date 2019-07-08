@@ -27,6 +27,12 @@ Ruby | Javascript | Python | C#
 `upcase` | `toUpperCase()` | `upper()` | `ToUpper()`
 `downcase` | `toLowerCase()` | `lower()` | `ToLower()`
 `strip` | `trim()` | `strip()` | `Trim()`
+
+# Number functions
+Ruby | Javascript | Python | C#
+:---:|:---:|:---:|:---:
+`Float::Infinity` | `Infinity` | `float("inf")` | `double.PositiveInfinity`
+
 <!-- 
 # Loops
 Ruby | Javascript | Python
