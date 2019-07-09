@@ -1,50 +1,57 @@
-<!-- 
+<!--
 Ruby | Javascript | Python
 :---:|:---:|:---:
 -->
 
 # String Interpolation or Template Literals
-Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:
-`"string #{code}"`  | ``` `string ${code}` ``` | `'string %s' %(code)` | `"string {0} {1}", code at {0}, code at {1}` <br/> OR `$"string {code}"`
-double quotes | grave accents | (v3.6) `f'string {code}'` | 
+
+|        Ruby        |       Javascript       |          Python           |                                    C#                                    |
+| :----------------: | :--------------------: | :-----------------------: | :----------------------------------------------------------------------: |
+| `"string #{code}"` | `` `string ${code}` `` |   `'string %s' %(code)`   | `"string {0} {1}", code at {0}, code at {1}` <br/> OR `$"string {code}"` |
+|   double quotes    |     grave accents      | (v3.6) `f'string {code}'` |
 
 # Array functions
-Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:
-`object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` | | requires LINQ
-`each` | `forEach()` | `for item in list:` | `foreach item in list {}`
-`map` / `collect` | `map()` | `list(map(function, input_list))` | `array.Select(x => operation on x)` 
-`select` | `filter()` | `list(filter(function, input_list))` | `array.Where(x => boolean operation)`
-`first` | `find()` | `???`
-`sum` | `reduce()` | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)`
-`array.join("separator")` | `array.join("separator")` | `"separator".join(list)` | `string.Join("separator", array)`
+
+|                   Ruby                    |                 Javascript                  |                Python                |                        C#                        |
+| :---------------------------------------: | :-----------------------------------------: | :----------------------------------: | :----------------------------------------------: |
+| `object.method { |item| item.something }` | `Array.method( (item) => item.something );` |                                      |                  requires LINQ                   |
+|                  `each`                   |                 `forEach()`                 |         `for item in list:`          |            `foreach item in list {}`             |
+|             `map` / `collect`             |                   `map()`                   |  `list(map(function, input_list))`   |       `array.Select(x => operation on x)`        |
+|                 `select`                  |                 `filter()`                  | `list(filter(function, input_list))` |      `array.Where(x => boolean operation)`       |
+|                  `first`                  |                  `find()`                   |                `???`                 |
+|                   `sum`                   |                 `reduce()`                  | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)` |
+|         `array.join("separator")`         |          `array.join("separator")`          |       `"separator".join(list)`       |        `string.Join("separator", array)`         |
 
 # String functions
-Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:
-`capitalize` | none | `capitalize()` | none
-`upcase` | `toUpperCase()` | `upper()` | `ToUpper()`
-`downcase` | `toLowerCase()` | `lower()` | `ToLower()`
-`strip` | `trim()` | `strip()` | `Trim()`
+
+|     Ruby     |   Javascript    |     Python     |     C#      |
+| :----------: | :-------------: | :------------: | :---------: |
+| `capitalize` |      none       | `capitalize()` |    none     |
+|   `upcase`   | `toUpperCase()` |   `upper()`    | `ToUpper()` |
+|  `downcase`  | `toLowerCase()` |   `lower()`    | `ToLower()` |
+|   `strip`    |    `trim()`     |   `strip()`    |  `Trim()`   |
 
 # Number functions
-Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:
-`Float::Infinity` | `Infinity` | `float("inf")` | `double.PositiveInfinity`
 
-<!-- 
+|       Ruby        | Javascript |     Python     |            C#             |
+| :---------------: | :--------: | :------------: | :-----------------------: |
+| `Float::Infinity` | `Infinity` | `float("inf")` | `double.PositiveInfinity` |
+
+<!--
 # Loops
 Ruby | Javascript | Python
 :---:|:---:|:---:
   -->
+
 # Terminal Output
-Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:
-`puts` | `console.log` | `print()` | `Console.WriteLine`
+
+|  Ruby  |  Javascript   |  Python   |         C#          |
+| :----: | :-----------: | :-------: | :-----------------: |
+| `puts` | `console.log` | `print()` | `Console.WriteLine` |
 
 # Data Types
-example | Ruby | Javascript | Python | C#
-:---:|:---:|:---:|:---:|:---:
-`[value1, value2]` | array | array | list | array or list
-`{key1: value1, key2: value2}` | hash | object | dictionary | dictionary
+
+|            example             | Ruby  | Javascript |   Python   |      C#       |
+| :----------------------------: | :---: | :--------: | :--------: | :-----------: |
+|       `[value1, value2]`       | array |   array    |    list    | array or list |
+| `{key1: value1, key2: value2}` | hash  |   object   | dictionary |  dictionary   |
