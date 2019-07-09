@@ -55,3 +55,11 @@ Ruby | Javascript | Python
 | :----------------------------: | :---: | :--------: | :--------: | :-----------: |
 |       `[value1, value2]`       | array |   array    |    list    | array or list |
 | `{key1: value1, key2: value2}` | hash  |   object   | dictionary |  dictionary   |
+
+# External Libraries
+
+|                         |            Ruby            |                     Javascript                     |                    Python                     |          C#          |
+| :---------------------: | :------------------------: | :------------------------------------------------: | :-------------------------------------------: | :------------------: |
+|  package <br/> manager  |        rubygems.org        |                        npm                         |                   pypi.org                    |        NuGet         |
+|  install <br/>command   |       `gem install`        |                   `npm install`                    | `pip install` OR <br/>`pip3 install` on POSIX | `dotnet add package` |
+| include <br/> statement | `gem pkgname` (in gemfile) | `import pkgname` OR `import function from pkgname` |        `import function from pkgname`         |   `using pkgname`    |
