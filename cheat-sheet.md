@@ -60,6 +60,6 @@ Ruby | Javascript | Python
 
 |                         |            Ruby            |                     Javascript                     |                    Python                     |          C#          |
 | :---------------------: | :------------------------: | :------------------------------------------------: | :-------------------------------------------: | :------------------: |
-|  package <br/> manager  |        rubygems.org        |                        npm                         |                   pypi.org                    |        NuGet         |
+|  package <br/> manager  |        rubygems.org        |                    npm or yarn                     |                   pypi.org                    |        NuGet         |
 |  install <br/>command   |       `gem install`        |                   `npm install`                    | `pip install` OR <br/>`pip3 install` on POSIX | `dotnet add package` |
 | include <br/> statement | `gem pkgname` (in gemfile) | `import pkgname` OR `import function from pkgname` |        `import function from pkgname`         |   `using pkgname`    |
