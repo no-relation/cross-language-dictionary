@@ -43,6 +43,12 @@ Ruby | Javascript | Python
 :---:|:---:|:---:
   -->
 
+# Exception handling
+
+| Ruby | Javascript | Python | C#
+| :----------: | :-------------: | :------------: | :---------: |
+| `begin  rescue {raise}  ensure` | `try {}  catch(err) {throw}  finally {}` | `try  except someError: raise  finally` | `try {}  catch(err) {throw}  finally {}` |
+
 # Terminal Output
 
 |  Ruby  |  Javascript   |  Python   |         C#          |
