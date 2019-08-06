@@ -45,9 +45,9 @@ Ruby | Javascript | Python
 
 # Exception handling
 
-| Ruby | Javascript | Python | C#
-| :----------: | :-------------: | :------------: | :---------: |
-| `begin  rescue {raise}  ensure` | `try {}  catch(err) {throw}  finally {}` | `try  except someError: raise  finally` | `try {}  catch(err) {throw}  finally {}` |
+|             Ruby              |               Javascript               |                Python                 |                   C#                   |
+| :---------------------------: | :------------------------------------: | :-----------------------------------: | :------------------------------------: |
+| `begin rescue {raise} ensure` | `try {} catch(err) {throw} finally {}` | `try except someError: raise finally` | `try {} catch(err) {throw} finally {}` |
 
 # Terminal Output
 
@@ -57,10 +57,13 @@ Ruby | Javascript | Python
 
 # Data Types
 
-|            example             | Ruby  | Javascript |   Python   |      C#       |
-| :----------------------------: | :---: | :--------: | :--------: | :-----------: |
-|       `[value1, value2]`       | array |   array    |    list    | array or list |
-| `{key1: value1, key2: value2}` | hash  |   object   | dictionary |  dictionary   |
+|            example             |         Ruby          |    Javascript     |            Python             |      C#       |
+| :----------------------------: | :-------------------: | :---------------: | :---------------------------: | :-----------: |
+|                                |         `nil`         |      `null`       |            `None`             |    `null`     |
+|       `[value1, value2]`       |         array         |       array       |             list              | array or list |
+| `{key1: value1, key2: value2}` |         hash          |      object       |          dictionary           |  dictionary   |
+|             truthy             | `0`, `""`, `[]`, `{}` |    `[]`, `{}`     |              ??               |    `true`     |
+|             falsy              |         `nil`         | `null`, `0`, `""` | `None`, `0`, `""`, `[]`, `{}` |    `false`    |
 
 # External Libraries
 
