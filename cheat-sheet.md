@@ -5,10 +5,11 @@ Ruby | Javascript | Python
 
 # String Interpolation or Template Literals
 
-|        Ruby        |       Javascript       |          Python           |                                    C#                                    |
-| :----------------: | :--------------------: | :-----------------------: | :----------------------------------------------------------------------: |
-| `"string #{code}"` | `` `string ${code}` `` |   `'string %s' %(code)`   | `"string {0} {1}", code at {0}, code at {1}` <br/> OR `$"string {code}"` |
-|   double quotes    |     grave accents      | (v3.6) `f'string {code}'` |
+|        Ruby        |       Javascript       |                      Python                      |                                    C#                                    |
+| :----------------: | :--------------------: | :----------------------------------------------: | :----------------------------------------------------------------------: |
+| `"string #{code}"` | `` `string ${code}` `` |              `'string %s' %(code)`               | `"string {0} {1}", code at {0}, code at {1}` <br/> OR `$"string {code}"` |
+|   double quotes    |     grave accents      |            (v3.6) `f'string {code}'`             |                                                                          |
+|                    |                        | `'string {stringCode}'.format(stringCode=code)`) |
 
 # Array functions
 
