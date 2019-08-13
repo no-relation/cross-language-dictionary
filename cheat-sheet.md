@@ -15,7 +15,7 @@ Ruby | Javascript | Python
 
 |                   Ruby                    |                 Javascript                  |                Python                |                        C#                        |
 | :---------------------------------------: | :-----------------------------------------: | :----------------------------------: | :----------------------------------------------: |
-| `object.method { |item| item.something }` | `Array.method( (item) => item.something );` |                                      |                  requires LINQ                   |
+| `object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` |                                      |                  requires LINQ                   |
 |                  `each`                   |                 `forEach()`                 |         `for item in list:`          |            `foreach item in list {}`             |
 |             `map` / `collect`             |                   `map()`                   |  `list(map(function, input_list))`   |       `array.Select(x => operation on x)`        |
 |                 `select`                  |                 `filter()`                  | `list(filter(function, input_list))` |      `array.Where(x => boolean operation)`       |
