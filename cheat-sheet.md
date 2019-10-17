@@ -13,15 +13,15 @@ Ruby | Javascript | Python
 
 # Array functions
 
-|                   Ruby                    |                 Javascript                  |                Python                |                        C#                        |
-| :---------------------------------------: | :-----------------------------------------: | :----------------------------------: | :----------------------------------------------: |
+|                    Ruby                     |                 Javascript                  |                Python                |                        C#                        |
+| :-----------------------------------------: | :-----------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 | `object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` |                                      |                  requires LINQ                   |
-|                  `each`                   |                 `forEach()`                 |         `for item in list:`          |            `foreach item in list {}`             |
-|             `map` / `collect`             |                   `map()`                   |  `list(map(function, input_list))`   |       `array.Select(x => operation on x)`        |
-|                 `select`                  |                 `filter()`                  | `list(filter(function, input_list))` |      `array.Where(x => boolean operation)`       |
-|                  `first`                  |                  `find()`                   |                `???`                 |
-|                   `sum`                   |                 `reduce()`                  | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)` |
-|         `array.join("separator")`         |          `array.join("separator")`          |       `"separator".join(list)`       |        `string.Join("separator", array)`         |
+|                   `each`                    |                 `forEach()`                 |         `for item in list:`          |            `foreach item in list {}`             |
+|              `map` / `collect`              |                   `map()`                   |  `list(map(function, input_list))`   |       `array.Select(x => operation on x)`        |
+|                  `select`                   |                 `filter()`                  | `list(filter(function, input_list))` |      `array.Where(x => boolean operation)`       |
+|                   `first`                   |                  `find()`                   |                `???`                 |
+|                    `sum`                    |                 `reduce()`                  | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)` |
+|          `array.join("separator")`          |          `array.join("separator")`          |       `"separator".join(list)`       |        `string.Join("separator", array)`         |
 
 # String functions
 
@@ -55,6 +55,13 @@ Ruby | Javascript | Python
 |  Ruby  |  Javascript   |  Python   |         C#          |
 | :----: | :-----------: | :-------: | :-----------------: |
 | `puts` | `console.log` | `print()` | `Console.WriteLine` |
+
+# Code Comments
+
+|                         Ruby                         |           Javascript           |                               Python                               |               C#               |
+| :--------------------------------------------------: | :----------------------------: | :----------------------------------------------------------------: | :----------------------------: |
+|                   `# single line`                    |        `// single line`        |                          `# single line`                           |        `// single line`        |
+| `=begin` <br/> `multiple` <br/> `lines` <br/> `=end` | `/* multiple` <br/> `lines */` | `"""multiple` <br/> `lines"""` <br/> (actually a mulitline string) | `/* multiple` <br/> `lines */` |
 
 # Data Types
 
