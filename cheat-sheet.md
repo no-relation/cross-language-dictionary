@@ -25,12 +25,12 @@ Ruby | Javascript | Python
 
 # String functions
 
-|     Ruby     |   Javascript    |     Python     |     C#      |
-| :----------: | :-------------: | :------------: | :---------: |
-| `capitalize` |      none       | `capitalize()` |    none     |
-|   `upcase`   | `toUpperCase()` |   `upper()`    | `ToUpper()` |
-|  `downcase`  | `toLowerCase()` |   `lower()`    | `ToLower()` |
-|   `strip`    |    `trim()`     |   `strip()`    |  `Trim()`   |
+|       Ruby       |     Javascript      |       Python       |       C#        |
+| :--------------: | :-----------------: | :----------------: | :-------------: |
+| `str.capitalize` |        none         | `str.capitalize()` |      none       |
+|   `str.upcase`   | `str.toUpperCase()` |   `str.upper()`    | `str.ToUpper()` |
+|  `str.downcase`  | `str.toLowerCase()` |   `str.lower()`    | `str.ToLower()` |
+|   `str.strip`    |    `str.trim()`     |   `str.strip()`    |  `str.Trim()`   |
 
 # Number functions
 
