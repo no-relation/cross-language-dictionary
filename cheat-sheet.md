@@ -16,21 +16,21 @@ Ruby | Javascript | Python
 |                    Ruby                     |                 Javascript                  |                Python                |                        C#                        |
 | :-----------------------------------------: | :-----------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 | `object.method { \|item\| item.something }` | `Array.method( (item) => item.something );` |                                      |                  requires LINQ                   |
-|                   `each`                    |                 `forEach()`                 |         `for item in list:`          |            `foreach item in list {}`             |
+|                   `each`                    |                 `forEach()`                 |         `for item in list:`          |          `foreach var item in list {}`           |
 |              `map` / `collect`              |                   `map()`                   |  `list(map(function, input_list))`   |       `array.Select(x => operation on x)`        |
 |                  `select`                   |                 `filter()`                  | `list(filter(function, input_list))` |      `array.Where(x => boolean operation)`       |
-|                   `first`                   |                  `find()`                   |                `???`                 |
+|                   `first`                   |                  `find()`                   |                `???`                 |             `array.FirstOrDefault()`             |
 |                    `sum`                    |                 `reduce()`                  | `list(reduce(function, input_list))` | `array.Aggregate((x,y) => operation on x and y)` |
 |          `array.join("separator")`          |          `array.join("separator")`          |       `"separator".join(list)`       |        `string.Join("separator", array)`         |
 
 # String functions
 
-|       Ruby       |     Javascript      |       Python       |       C#        |
-| :--------------: | :-----------------: | :----------------: | :-------------: |
-| `str.capitalize` |        none         | `str.capitalize()` |      none       |
-|   `str.upcase`   | `str.toUpperCase()` |   `str.upper()`    | `str.ToUpper()` |
-|  `str.downcase`  | `str.toLowerCase()` |   `str.lower()`    | `str.ToLower()` |
-|   `str.strip`    |    `str.trim()`     |   `str.strip()`    |  `str.Trim()`   |
+|       Ruby       |     Javascript      |       Python       |            C#            |
+| :--------------: | :-----------------: | :----------------: | :----------------------: |
+| `str.capitalize` |        none         | `str.capitalize()` |           none           |
+|   `str.upcase`   | `str.toUpperCase()` |   `str.upper()`    | `str.ToUpperInvariant()` |
+|  `str.downcase`  | `str.toLowerCase()` |   `str.lower()`    | `str.ToLowerInvariant()` |
+|   `str.strip`    |    `str.trim()`     |   `str.strip()`    |       `str.Trim()`       |
 
 # Number functions
 
